@@ -21,6 +21,10 @@ body {
     justify-content: space-around;
     align-items: center;
 }
+.location .icon {
+    filter: invert(1) sepia(1);
+    width: 100px;
+}
 .temperature {
     flex-direction: column;
 }
@@ -30,7 +34,7 @@ body {
     cursor: pointer;
 }
 .degree-section span {
-    margin: 10px;
+    margin: 0 10px 10px;
     font-size: 30px;
 }
 .degree-section h2 {
